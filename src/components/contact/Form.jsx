@@ -32,7 +32,7 @@ export default function Form() {
     const toastId = toast.loading("Sending your message, please wait...");
 
     toast.info(
-      "Form submissions are demo-only here. Please checkout the final code repo to enable it. If you want to connect you can reach out to me via codebucks27@gmail.com.",
+      "Email feature is pending now. If you want to connect you can reach out to me via vishal.maheshofficial@gmail.com",
       {
         id: toastId,
       }
@@ -75,7 +75,7 @@ export default function Form() {
 
   const onSubmit = (data) => {
     const templateParams = {
-      to_name: "CodeBucks",
+      to_name: "Vishal",
       from_name: data.name,
       reply_to: data.email,
       message: data.message,
